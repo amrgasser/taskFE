@@ -6,7 +6,7 @@ const Chart1 = () => {
   const [labels, setLabels] = useState([])
   const [values, setValues] = useState([])
   const getData = async () => {
-    const response = await fetch('http://localhost:8000/api/chart1')
+    const response = await fetch('http://localhost:8000/api/chart/1')
     const data = await response.json()
     const labels = []
     const values = []
