@@ -11,25 +11,25 @@ function App() {
   return (
     <>
       <div className='container'>
-        <div className='item'>
+        <div className='item left'>
           <Chart1 />
         </div>
-        <div className='item'>
+        <div className='item right'>
           <Chart2 />
         </div>
-        <div className='item'>
+        <div className='item left'>
           <Chart3 />
         </div>
-        <div className='item'>
+        <div className='item right'>
           <Chart4 />
         </div>
-        <div className='item'>
+        <div className='item left'>
           <Chart5 />
         </div>
-        <div className='item'>
+        <div className='item right'>
           <Chart6 />
         </div>
-        <div className='item'>
+        <div className='item last'>
           <Chart7 />
         </div>
       </div>

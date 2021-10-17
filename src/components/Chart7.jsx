@@ -37,6 +37,14 @@ const Chart6 = () => {
     <div>
       <Line
         responsive
+        options={{
+          plugins: {
+            title: {
+              display: true,
+              text: 'Date account created dist/ signup app',
+            },
+          },
+        }}
         data={{
           labels: labels,
           datasets: [

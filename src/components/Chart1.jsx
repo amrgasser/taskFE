@@ -29,7 +29,9 @@ const Chart1 = () => {
           labels: labels,
           datasets: [
             {
-              label: 'Chart1',
+              label: 'Samples per class',
+              backgroundColor: 'red',
+
               data: values,
             },
           ],

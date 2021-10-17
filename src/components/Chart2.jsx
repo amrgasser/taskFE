@@ -29,7 +29,9 @@ const Chart2 = () => {
           labels: labels,
           datasets: [
             {
-              label: 'Chart2',
+              label: 'Affiliate Channel Percentage',
+              backgroundColor: 'red',
+
               data: values,
             },
           ],

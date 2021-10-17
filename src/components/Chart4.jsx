@@ -29,7 +29,8 @@ const Chart4 = () => {
           labels: labels,
           datasets: [
             {
-              label: 'Chart4',
+              label: 'Affiliate Channel Provider Percentage',
+              backgroundColor: 'red',
               data: values,
             },
           ],

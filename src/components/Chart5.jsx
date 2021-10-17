@@ -31,11 +31,19 @@ const Chart5 = () => {
     <div>
       <Line
         responsive
+        options={{
+          plugins: {
+            title: {
+              display: true,
+              text: 'Date Account Created Dist',
+            },
+          },
+        }}
         data={{
           labels: labels,
           datasets: [
             {
-              label: 'Chart5',
+              // label: 'Date Account Created Dist',
               backgroundColor: 'green',
               data: values,
             },

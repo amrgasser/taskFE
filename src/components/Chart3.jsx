@@ -33,8 +33,17 @@ const Chart3 = () => {
     <div>
       <Bar
         responsive
+        options={{
+          plugins: {
+            title: {
+              display: true,
+              text: 'Signup age dist per age',
+            },
+          },
+        }}
         data={{
           labels: labels,
+
           datasets: [
             {
               label: '18-20',

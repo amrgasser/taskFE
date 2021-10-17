@@ -40,6 +40,14 @@ const Chart6 = () => {
     <div>
       <Line
         responsive
+        options={{
+          plugins: {
+            title: {
+              display: true,
+              text: 'Date account created dist/ age range',
+            },
+          },
+        }}
         data={{
           labels: labels,
           datasets: [
